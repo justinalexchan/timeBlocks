@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        style="@android:style/Widget.DeviceDefault.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/bckColor">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/textColor">
+
+                <TextView
+                    android:id="@+id/textView8am"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="41dp"
+                    android:text="8:00 AM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText8am"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                <TextView
+                    android:id="@+id/textView9am"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="9:00 AM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText9am"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <TextView
+                    android:id="@+id/textView10am"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="10:00 AM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText10am"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <TextView
+                    android:id="@+id/textView11am"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="11:00 AM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText11am"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <TextView
+                    android:id="@+id/textView12pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="12:00 PM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText12pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <TextView
+                    android:id="@+id/textView1pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="1:00 PM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText1pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <TextView
+                    android:id="@+id/textView2pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="2:00 PM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText2pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <TextView
+                    android:id="@+id/textView3pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="3:00 PM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText3pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <TextView
+                    android:id="@+id/textView4pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="4:00 PM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText4pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <TextView
+                    android:id="@+id/textView5pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="5:00 PM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText5pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <TextView
+                    android:id="@+id/textView6pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="6:00 PM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText6pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <TextView
+                    android:id="@+id/textView7pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="7:00 PM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText7pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:id="@+id/textView8pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:text="8:00 PM"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/editText8pm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:text="Event" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="Your Schedule"
+                android:textSize="24sp"
+                tools:text="Your Schedule" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
